@@ -1,0 +1,207 @@
+/*This is a stylesheet: how to write CSS
+
+Tag{
+    Property: Value;
+}
+
+use meyer reset on a seperate style sheet
+
+up to 960px for main column
+*/
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Laila:400,700|Shadows+Into+Light');
+
+* {box-sizing: border-box;}
+
+body{
+    background-color: #f4e1d2; 
+}
+
+header{
+    background-color: #bc5a45;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+a:hover{
+    color:#bc5a45;
+    background-color: #f4e1d2;
+}
+
+a:active{
+    color: #fff;
+    border: #fff solid 1px;
+    background-color: #bc5a45;
+}
+
+nav{
+    display: inline-block;
+}
+
+    nav ul li{
+        padding: 20px;
+        display: inline-block;
+
+    }
+
+        nav ul li a{
+            display: inline-block;
+        }
+
+main{
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 125px;
+    padding-bottom: 75px;
+}
+
+footer{
+    width:100%;
+    background-color: #bc5a45;
+    height: 75px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+img{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    line-height: 1.5em;
+    font-size: 18px;
+    text-indent: 1em;
+    font-family: sans-serif;
+    color: #777777;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Laila', serif;
+    color: #fff;
+    padding: 20px;
+    width: 235px;
+    display: inline-block;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 175%;
+    text-align: center;
+    font-family: 'Laila', serif;
+    margin: 10px;
+    margin-top:40px
+}
+
+h3{
+    font-size: 150%;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #bc5a45;
+    font-weight: bold;
+}
+
+blockquote{
+    line-height: 1.5em;
+    font-size: 24px;
+    text-indent: 1em;
+    font-family: 'Shadows Into Light', cursive;
+    color: #f18973;
+    font-weight: bold;
+    float: right;
+    width: 50%;
+    padding: 20px;
+   letter-spacing: 2px;
+}
+
+#photos img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin-left:36px;
+    margin-right:36px;
+    float: left;
+}
+
+#photos a{
+    color: #000;
+    text-decoration: underline;
+    font-family: sans-serif;
+    border-radius: 0px;
+    padding: 0px; 
+}
+
+#photos a:hover{
+    color: #fff;
+}
+
+#firstimg{
+    float: right;
+    padding-left: 20px;
+}
+
+#thirdimg{
+    float: left;
+    padding-right: 20px;
+    padding-top:0px;
+}
+
+.p3{
+    line-height: 1.5em;
+    font-size: 14px;
+    text-indent: 2em;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #aaaaaa;
+    margin-top: 10px;
+}
+
+footer a{
+    float: left;
+    margin: 20px;
+}
+
+form{
+    float:right;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 10px;
+    line-height: 2em;
+}
+
+input[type=email]{
+    padding: 5px;
+    padding-right: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    border: #000;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover{
+    color:#bc5a45;
+    background-color: #f4e1d2;
+}
+
