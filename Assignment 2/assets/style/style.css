@@ -130,7 +130,7 @@ blockquote{
    letter-spacing: 2px;
 }
 
-#photos img{
+.photos img{
     width: 400px;
     height: 400px;
     padding: 20px;
@@ -139,7 +139,7 @@ blockquote{
     float: left;
 }
 
-#photos a{
+.photos a{
     color: #000;
     text-decoration: underline;
     font-family: sans-serif;
@@ -147,7 +147,7 @@ blockquote{
     padding: 0px; 
 }
 
-#photos a:hover{
+.photos a:hover{
     color: #fff;
 }
 
@@ -162,7 +162,7 @@ blockquote{
     padding-top:0px;
 }
 
-.p3{
+.moreinfo{
     line-height: 1.5em;
     font-size: 14px;
     text-indent: 2em;
