@@ -2,3 +2,10 @@
 	The next section I worked on was the footer of the website. The footer includes two main elements: The top of the page link and the newsletter signup form. I wanted these two elements to sit in line with each other with the top of page link to the left and the form to the right so I made both float in its respective direction. I was happy with the link styles I used in the navigation menu so I didn’t change anything about the top of page link other than the float left. For the form I wanted to make both the Email box and Submit button a bit larger and add rounded corners to both to make it more aesthetically pleasing. I also added a hover element to the submit button for interactivity. 
 	With the header and footer set up I moved on to the main section of the website. I had already set up basic paragraph and heading styles however I created special styles for reference/more information comments and for the blockquote. I then went through the images in the text heavy section of the website and made them float beside the text to make the website flow better. I then organized the image gallery at the bottom of the webpage so that all the images sit in a grid-like system. Finally I changed the styles of the links at the bottom of the image gallery as they are not a part of the header or footer and needed to be more clearly clickable. Adding an underline and rollover remedies this problem. 
 	Overall my goal for this website was to present the information in the most efficient and functional way and I believe I achieved this through the CSS I added. 
+
+
+
+References:
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+https://www.w3schools.com/cssreF/default.asp
