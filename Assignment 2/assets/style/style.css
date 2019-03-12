@@ -130,7 +130,7 @@ blockquote{
    letter-spacing: 2px;
 }
 
-.photos img{
+.gallery img{
     width: 400px;
     height: 400px;
     padding: 20px;
@@ -139,7 +139,7 @@ blockquote{
     float: left;
 }
 
-.photos a{
+.gallery a{
     color: #000;
     text-decoration: underline;
     font-family: sans-serif;
@@ -147,7 +147,7 @@ blockquote{
     padding: 0px; 
 }
 
-.photos a:hover{
+.gallery a:hover{
     color: #fff;
 }
 
